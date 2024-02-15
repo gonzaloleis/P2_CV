@@ -1,9 +1,35 @@
 body {
-    background-color: rgb(174, 211, 211); 
+    background-color: rgb(244, 226, 148); 
+    color: rgb(33, 111, 26);
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+}
+
+header h1 {
+    margin-bottom: 20px; 
+}
+
+header *:not(h1) {
+    margin: 10; 
+    padding: 0; 
 }
 
 section {
-    border: 1.5px solid rgb(25, 94, 19); 
+    border: 2px solid rgb(49, 172, 38); 
     padding: 10px; 
     margin-bottom: 20px;
+}
+
+#fotoCarnet {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 10%;
+}
+
+#infoHeader {
+    margin-left: 10px;
 }
